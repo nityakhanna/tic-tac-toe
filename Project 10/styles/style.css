@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(231, 231, 231);
+    background-color: rgb(171, 171, 171);
+}
+
+#main-header {
+    background-color: rgb(100, 149, 177);
+    color: rgb(37, 37, 37);
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    font-weight: bold;
+    padding: .5rem 1.5rem;
+    background-color: rgb(100, 149, 177);
+    border: 2px solid rgb(100, 149, 177);
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: rgb(231, 231, 231);
+    color: rgb(231, 231, 231);
+}
+
+#config-overlay .btn-alt {
+    background-color: transparent;
+    border-color:  rgb(100, 149, 177);
+    color:  rgb(100, 149, 177);
+}
+
+.btn:hover {
+    background-color: rgb(138, 189, 212);
+    border-color: rgb(138, 189, 212);
+}
+
+.btn-alt:hover {
+    background-color: rgb(100, 156, 182);
+    border-color: rgb(100, 156, 182);
+}
+
+#config-overlay .btn-alt:hover {
+    background-color: rgb(138, 189, 212);
+    border-color:  rgb(138, 189, 212);
+    color: rgb(231, 231, 231);
+}
